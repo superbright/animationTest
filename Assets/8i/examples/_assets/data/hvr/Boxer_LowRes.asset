@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2befaf3d8e029e24fb05dda3ffd902e1, type: 3}
+  m_Name: Boxer_LowRes
+  m_EditorClassIdentifier: 
+  data: {fileID: 102900000, guid: 6bca1506bf3da9d4fa78e72323081076, type: 3}
+  uniqueID: a6d4f081-8406-45b7-9129-41a8a298f10c
+  trimMin: 0
+  trimMax: 0
+  assetScaleFactor: 0.01
+  lastCurrentTime: 0

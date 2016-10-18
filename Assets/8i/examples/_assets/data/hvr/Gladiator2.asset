@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2befaf3d8e029e24fb05dda3ffd902e1, type: 3}
+  m_Name: Gladiator2
+  m_EditorClassIdentifier: 
+  data: {fileID: 102900000, guid: 7dbcda5b411f2394e8cce2bfe6081658, type: 3}
+  uniqueID: 25d6b070-e82e-41bc-8b59-4b0572acd214
+  trimMin: 0
+  trimMax: 0
+  assetScaleFactor: 0.01
+  lastCurrentTime: 0

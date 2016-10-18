@@ -1,0 +1,95 @@
+----------------------------------------
+0.3.0 [2016-06-22]
+----------------------------------------
+    Features
+    - Android Support
+    - Windows 7 Support
+    - Added HvrAudioSourceSync for syncing an audiosource to a HvrActor
+
+    Changes
+    - Exposed the HvrActorInterface and HvrAssetInterface within the HvrActor and HvrAsset classes
+
+    Other
+    - General bug fixes and improvements
+
+    Known Issues
+	- Occasionally Actors will not render in the Scene View, it is recommended to load the scene again, or restart the Editor if this persists.
+    - Some Android devices will fail to load the HvrRender shaders if "Split Application Binary" is selected as a player option
+    - On Windows, under OpenGL4.5, any HVR data that was compressed using the HVR5.3 codec will render as a black square.
+
+
+----------------------------------------
+0.2.1 [2016-05-25]
+----------------------------------------
+    Improvements
+    - Major gains to performance.
+        - Added dynamic lodding system
+        - Added rendering occlusion culling
+
+----------------------------------------
+0.2.0 [2016-04-29]
+----------------------------------------
+    Features
+    - Added support for Forward Rendering
+    - Added 'Simple' render mode to HvrRender. This mode does not use any depth compositing will not be occluded by objects in the scene.
+    - Added support for looping HvrActors
+
+    Improvements
+    - Major gains to performance under DirectX11. Upwards of 30% improvement to the average framerate.
+
+    Fixes
+    - Fixed issue where the width of the render camera was being used for the height of the viewport.
+    - General fixes and performance improvements
+
+
+----------------------------------------
+0.1.1 [2016-04-04]
+----------------------------------------
+    Features
+    - Added support for animating the Hvr Color Correction Component
+    - Added HvrFader component
+
+    Improvements
+    - Added automatic frustrum culling to give improved performance when actors are not visible
+    - Improved method of rendering actors that only partially cover the screen to give improved performance
+
+    Known Issues
+    - Intermittently the HvrActors will not render correctly, and where they should be looks like a series of colored cubes. Restarting the application can correct this.
+
+
+----------------------------------------
+0.1.0.4 [2016-03-14]
+----------------------------------------
+    Fixes
+    - Fixed issue with VR Headsets where the left eye would flicker.
+
+
+----------------------------------------
+0.1.0.3 [2016-02-29]
+----------------------------------------
+    Fixes
+    - Fixed color correction on OpenGL rendering in greyscale
+
+
+----------------------------------------
+0.1.0.2 [2016-02-29]
+----------------------------------------
+    General
+    - Updated Cinema Director to 1.4.4.0
+
+    Fixes
+    - Fixed issue where actors would continue to play even after cutscene is paused
+    - Fixed actors continuing to play when scrubbing through a cutscene, but not playing
+
+
+----------------------------------------
+0.1.0.1 [2016-02-24]
+----------------------------------------
+    Fixes
+    - Fixed issue where the bounding boxes weren't being converted to Unity's left handed coordinate system
+
+
+----------------------------------------
+0.1.0 [2016-02-24]
+----------------------------------------
+    - Initial Release

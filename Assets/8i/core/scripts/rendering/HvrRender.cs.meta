@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 476557721c9d5f042948b36b41c0784f
+timeCreated: 1455232050
+licenseType: Pro
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - hvrShader: {fileID: 4800000, guid: e7397689ad0da0b47b11f7eb8aca659e, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
